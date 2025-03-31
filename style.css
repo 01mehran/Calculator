@@ -62,7 +62,7 @@ button.operator {
 @media screen and (width < 600px) {
   body {
     align-items: flex-end;
-    background-color: #fefefe;
+    background-color: #ffffff;
   }
   .container {
     padding: 10px;
@@ -77,10 +77,22 @@ button.operator {
     border-bottom: 1px solid #ccc;
     border-radius: 0;
   }
+  .buttons {
+    gap: 30px;
+    padding-bottom: 1.5rem;
+  }
 
   .buttons button {
-    box-shadow: 0px 1px 2px #2f9ffe;
-    font-size: 20px;
-    padding: 20px;
+    background-color: transparent;
+    box-shadow: none;
+    font-weight: 600;
+  }
+  .buttons button.equal {
+    color: #fff;
+    margin: 0 auto;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-color: #2f9ffe;
   }
 }
