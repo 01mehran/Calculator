@@ -6,7 +6,8 @@
 *This calculatore is also responsive and you can open it on your mobile phone.*
 
 
-![My output](./output.png);
+![My output](./images/output.png);
+![My desktop output](./images/desktop-output.png);
 
 
 **in adition you can see my calculatore online.**
