@@ -7,6 +7,7 @@ let output = "";
 buttons.forEach((btn) => {
   btn.addEventListener("click", (e) => calc(e.target.dataset.value));
 });
+
 const calc = (buttonValue) => {
   if (buttonValue === "=" && output !== "") {
     output = eval(output.replace("%", "/100"));

@@ -11,7 +11,12 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: rgb(180, 195, 199);
+  /* background-color: rgb(180, 195, 199); */
+  background-image: linear-gradient(
+    to bottom,
+    rgba(99, 198, 226, 0.863),
+    rgb(99, 231, 73)
+  );
 }
 .container {
   position: relative;
@@ -34,7 +39,7 @@ body {
   padding: 0 10px;
   pointer-events: none;
   box-shadow: 0px 0px 8px 1px rgb(180, 195, 199);
-  border-radius: 2px;
+  border-radius: 5px;
 }
 .buttons {
   display: grid;
@@ -63,6 +68,7 @@ button.operator {
   body {
     align-items: flex-end;
     background-color: #ffffff;
+    background-image: none;
   }
   .container {
     padding: 10px;
